@@ -1,1 +1,1 @@
-{{ partial "helpers/image" (dict "filename" .Destination "alt" .Text "class" "img-fluid" "resources" .Page.Resources) }}
+<img class="img-fluid" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} loading="lazy" />

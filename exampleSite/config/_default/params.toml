@@ -27,7 +27,6 @@ googleAdsense = ""
 # math = true # Enable math globally.
 # toc = false # Disable TOC globally.
 # breadcrumb = false # Disable breadcrumb
-# diagram = true
 
 # poweredBy = false # Whether to show powered by.
 
@@ -52,7 +51,7 @@ titleCase = true # Capitalized title.
 
 [codeBlock]
   # maxLines = 8
-  lineNos = false # true/false represents that show/hide the line numbers by default.
+  # lineNos = false # true/false represents that show/hide the line numbers by default.
 
 [post]
   # excerpt = "description"
@@ -114,45 +113,3 @@ titleCase = true # Capitalized title.
   # small = ".9rem"
   # large = "1.1rem"
   # extraLarge = "1.2rem"
-  
-# Katex options, see also https://katex.org/docs/autorender.html and https://katex.org/docs/options.html
-[katex]
-  [[katex.delimiters]]
-    left = "$$"
-    right = "$$"
-    display = true
-  [[katex.delimiters]]
-    left = "$"
-    right = "$"
-    display = false
-  [[katex.delimiters]]
-    left = "\\("
-    right = "\\)"
-    display = false
-  [[katex.delimiters]]
-    left = "\\begin{equation}"
-    right = "\\end{equation}"
-    display = true
-  [[katex.delimiters]]
-    left = "\\begin{align}"
-    right = "\\end{align}"
-    display = true
-  [[katex.delimiters]]
-    left = "\\begin{alignat}"
-    right = "\\end{alignat}"
-    display = true
-  [[katex.delimiters]]
-    left = "\\begin{gather}"
-    right = "\\end{gather}"
-    display = true
-  [[katex.delimiters]]
-    left = "\\begin{CD}"
-    right = "\\end{CD}"
-    display = true
-  [[katex.delimiters]]
-    left = "\\["
-    right = "\\]"
-    display = true
-
-[mermaid] # See https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-  theme = "dark"

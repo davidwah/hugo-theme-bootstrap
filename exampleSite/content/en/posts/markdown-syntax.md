@@ -12,7 +12,7 @@ tags = [
   "HTML",
 ]
 series = [
-  "Manual"
+  "User Manual"
 ]
 aliases = ["migrate-from-jekyl"]
 images = [
@@ -117,7 +117,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 * Another item
 * And another item
 
-### Nested List
+### Nested list
 
 * Fruit
   * Apple
@@ -126,11 +126,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 * Dairy
   * Milk
   * Cheese
-
-### TODO List
-
-- [x] Done
-- [ ] WIP
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 
